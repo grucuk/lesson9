@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Task 14</title>
+</head>
+
+<body>
+    <div class="container" style="position: relative;">
+        <div id="left">
+            <form action="" class="inputUser">
+
+                <label for="login"><span>Login</span><br>
+                    <input type="text" name="login" id="login" placeholder="Enter login"  ><br><br>
+
+                    <label for="password"><span >Password</span><br>
+                        <input type="password" name="password" id="password" placeholder="Enter password"><br><br>
+
+                        <label for="email"><span >Email address</span><br>
+                            <input type="email" name="email" id="email" placeholder="Enter email" ><br><br>
+                        </label>
+                        <input type="submit" value="Add user" id="btn1" style="border: none;
+                        width: 150px;cursor: pointer;visibility: visible;" >
+                        <button  id="btn2">Edit user</button>
+            </form>
+        </div>
+        <div id="right" >
+            <table cellpadding="7" width="100%" style="margin: 30px 0; " id="tbl">
+                <thead id="header" >
+                    <th>#</th>
+                    <th>Login</th>
+                    <th>Password</th>
+                    <th>Email</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
+                </thead>
+                <tbody id="tbody">
+
+                </tbody>
+                
+               
+            </table>
+
+        </div>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
